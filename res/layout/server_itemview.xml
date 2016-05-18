@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/server_itemview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/room_item_top"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:hint="服务器名字"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:textColor="#FFFAFA00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/server_itemview_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/room_item_mid_01" />
+
+    <TextView
+        android:id="@+id/server_itemview_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dip"
+        android:background="@drawable/room_item_bottom"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:hint="服务器人数"
+        android:lines="2"
+        android:textColor="#FFFAFA00"
+        android:textStyle="bold" />
+
+</LinearLayout>

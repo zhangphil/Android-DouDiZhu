@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/serila_item_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="商品名称"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/serila_item_view_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="购买日期"
+        android:singleLine="true" />
+        <TextView
+        android:id="@+id/serila_item_view_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="订单状态"
+        android:singleLine="true" />
+ 
+    <TextView
+        android:id="@+id/serila_item_view_order"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="订单编码"
+        android:singleLine="true" />
+
+</LinearLayout>

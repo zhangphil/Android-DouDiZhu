@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:orientation="horizontal"  android:id="@+id/menu_LinearLayout" >
+
+ 
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+
+        <ImageView
+            android:id="@+id/menu_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_logo"
+            android:contentDescription="@string/sznull" />
+ 
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="0.78"
+        android:background="@drawable/login_kuang"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="205dp"
+            android:layout_height="fill_parent" >
+
+  			<Button
+  			    android:id="@+id/menu_bt_fastenter"
+  			    android:layout_width="170dip"
+  			    android:layout_height="45dip"
+  			    android:layout_above="@+id/menu_bt_reg"
+  			    android:layout_alignParentRight="true"
+  			    android:layout_marginBottom="22dp"
+  			    android:background="@drawable/login_btn"
+  			    android:text="登 录"
+  			    android:textSize="20sp" />
+
+  			<Button
+  			    android:id="@+id/menu_bt_reg"
+  			    android:layout_width="170dip"
+  			    android:layout_height="45dip"
+  			    android:layout_alignParentRight="true"
+  			    android:layout_centerVertical="true"
+  			    android:background="@drawable/reg_btn"
+  			    android:text="1秒注册"
+  			    android:textSize="20sp" />
+  
+        </RelativeLayout>
+         
+
+           
+
+         
+    </LinearLayout>
+
+</LinearLayout>

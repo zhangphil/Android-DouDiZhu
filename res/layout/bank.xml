@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="280dip"
+    android:background="@drawable/bg_009"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/bank_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dip"
+            android:contentDescription="@string/sznull"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rbt_savetake"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:background="@drawable/bg_savetake"
+                android:button="@android:color/transparent"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rbt_transfer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transfer"
+                android:button="@android:color/transparent" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@android:color/black" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/banke"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/bg_010"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/flag_gold"
+            android:contentDescription="@string/sznull" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/bank_text_userscore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_003"
+                android:textColor="@color/darkgold" />
+
+            <TextView
+                android:id="@+id/bank_text_bankscore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_004"
+                android:textColor="@color/darkgold" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/bt_bank_fresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:background="@drawable/bt_fresh"
+            android:contentDescription="@string/sznull" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bank_flag_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:minWidth="40dip"
+            android:text="@string/tip_005"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bank_text_score"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tip_006"
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bank_flag_tager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:minWidth="40dip"
+            android:text="@string/tip_009"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bank_text_tager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tip_010"
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <ImageButton
+            android:id="@+id/bt_bank_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@drawable/bt_save"
+            android:contentDescription="@string/tip_011" />
+
+        <ImageButton
+            android:id="@+id/bt_bank_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/bt_transfer"
+            android:contentDescription="@string/tip_012" />
+
+        <ImageButton
+            android:id="@+id/bt_bank_take"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/bt_take"
+            android:contentDescription="@string/tip_013" />
+    </LinearLayout>
+
+</LinearLayout>

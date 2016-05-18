@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tip_000">*左右滑动切换页面*</string>
+    <string name="tip_001">使用昵称</string>
+    <string name="tip_002">使用ID</string>
+    <string name="tip_003">现有：</string>
+    <string name="tip_004">保险柜：</string>
+    <string name="tip_005">金额</string>
+    <string name="tip_006">输入金额</string>
+    <string name="tip_007">密码</string>
+    <string name="tip_008">输入密码</string>
+    <string name="tip_009">目标</string>
+    <string name="tip_010">输入目标用户</string>
+    <string name="tip_011">存入</string>
+    <string name="tip_012">转给</string>
+    <string name="tip_013">取出</string>
+    <string name="tip_014">请输入聊天信息(最多不超过128个字符)</string>
+    <string name="tip_015">加载中...</string>
+    <string name="tip_016">获取失败</string>
+
+</resources>

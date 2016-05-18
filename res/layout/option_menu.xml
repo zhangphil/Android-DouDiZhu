@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/option_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="音乐"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/option_music_seekbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:max="100"
+            android:maxHeight="12dip"
+            android:minHeight="12dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:progressDrawable="@drawable/seekbar_style_001"
+            android:thumb="@drawable/seekbar_02"
+            android:thumbOffset="0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="音效"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/option_sound_seekbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:max="100"
+            android:maxHeight="12dip"
+            android:minHeight="12dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:progressDrawable="@drawable/seekbar_style_001"
+            android:thumb="@drawable/seekbar_02"
+            android:thumbOffset="0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/option_bt_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/bt_on" />
+    </LinearLayout>
+
+</LinearLayout>

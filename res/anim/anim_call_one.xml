@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/call_point_00"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_01"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_02"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_03"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_04"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_05"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_06"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_07"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/call_point_99"
+        android:duration="150"/>
+</animation-list>

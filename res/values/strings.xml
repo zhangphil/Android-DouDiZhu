@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">掌上单机斗地主</string>
+    <string name="sznull"></string>
+    <string name="sz_accounts">请输入账号</string>
+    <string name="sz_password">请输入密码</string>
+    <string name="sz_record_accounts">记住密码</string>
+    <string name="sz_atuo_login">自动登录</string>
+    <string name="sz_servertitle">房间列表</string>
+    <string name="sz_option">游戏配置</string>
+    <string name="sz_option_sound">音效</string>
+    <string name="sz_option_music">音乐</string>
+    <string name="sz_option_tip">提示</string>
+    <string name="sz_option_allowlook">观看</string>
+    <string name="sz_roomtitle">桌子列表</string>
+    <string name="sz_register_accounts">请输入帐号</string>
+    <string name="sz_register_nickname">请输入昵称</string>
+    <string name="sz_register_password">请输入登陆密码</string>
+    <string name="sz_register_insurepassword">请输入保险柜密码</string>
+    <string name="sz_gender_boy">男</string>
+    <string name="sz_gender_gril">女</string>
+    <string name="sz_shoptitle">道具列表</string>
+    <string name="sz_shop_bt_buy">购买</string>
+    <string name="sz_shop_bt_nobuy">取消</string>
+    <string name="sz_horn_bt_send">发送</string>
+    <string name="sz_horn_bt_cancel">取消</string>
+    <string name="sz_register_title">注册</string>
+    <string name="chatitem_00">快点吧，等到花儿都谢了。</string>
+    <string name="chatitem_01">大家好，很高兴见到各位。</string>
+    <string name="chatitem_02">又断线了，网络怎么这么差啊。</string>
+    <string name="chatitem_03">和你合作真是太愉快了。</string>
+    <string name="chatitem_04">我们交个朋友吧，能告诉我你的联系方式么？</string>
+    <string name="chatitem_05">你是MM，还是GG？</string>
+    <string name="chatitem_06">不要吵了，不要吵了，专心玩游戏吧。</string>
+    <string name="chatitem_07">不要走，决战到天亮。</string>
+    <string name="chatitem_08">各位真是不好意思，我要走了。</string>
+    <string name="chatitem_09">再见了，我会想念大家的。</string>
+    <string name="title_activity_buy_score">BuyScoreActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

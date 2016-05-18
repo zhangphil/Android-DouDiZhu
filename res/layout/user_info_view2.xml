@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/user_info_bg"
+    android:orientation="horizontal" >
+
+     
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginRight="50dip"
+         android:layout_marginBottom="0dip"
+        android:orientation="vertical" >
+ 
+      <ImageView
+            android:id="@+id/user_info_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dip"
+            android:background="@drawable/hall_playerhead" />
+        
+         
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginRight="5dip"
+         android:layout_marginBottom="0dip"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/user_info_bt_setimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/bt_getid"
+            android:gravity="center"
+            android:text=" 上传头像  " />
+		<Button
+            android:id="@+id/user_info_bt_setnickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:background="@drawable/bt_getid"
+            android:gravity="center"
+            android:text=" 修改昵称  " />
+			
+		<Button
+            android:id="@+id/user_info_bt_setmaxim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:background="@drawable/bt_getid"
+            android:gravity="center"
+            android:text=" 修改签名  " />
+
+        <Button
+            android:id="@+id/user_info_bt_setpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:background="@drawable/bt_getid"
+            android:gravity="center"
+            android:text=" 修改密码  " />
+         
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/user_info_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true"
+            android:textColor="@color/darkgold"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dip"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/user_info_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="游戏ID"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_info_score"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+     	<TextView
+            android:id="@+id/user_info_rank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+    <TextView
+            android:id="@+id/user_info_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+    
+        <TextView
+            android:id="@+id/user_info_win"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/user_info_lose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+        
+         <TextView
+            android:id="@+id/user_info_escape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+         
+         <TextView
+            android:id="@+id/user_info_maxim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/tip_016"
+            android:singleLine="true" />
+         
+    </LinearLayout>
+
+</LinearLayout>
